@@ -1,0 +1,26 @@
+[Version]
+Signature="$Windows NT$"
+[BasicConstraintsExtension]
+Critical=Yes
+[CRLDistributionPoint]
+Empty=True
+[AuthorityInformationAccess]
+Empty=True
+[Extensions]
+;Removes Certificate Template extension 
+1.3.6.1.4.1.311.21.7 =
+1.3.6.1.4.1.311.20.2 =
+;Removes CA version extension
+1.3.6.1.4.1.311.21.1 =
+;Removes the digital signature from the key usage extension
+2.5.29.15=AwIBBg==
+;Sets the key usage extension critical
+Critical=2.5.29.15
+[Certsrv_Server]
+RenewalKeyLength=4096
+RenewalValidityPeriod=Years
+RenewalValidityPeriodUnits=20
+CRLPeriod=Years
+CRLPeriodUnits=1
+CRLDeltaPeriod=Days
+CRLDeltaPeriodUnits=0
