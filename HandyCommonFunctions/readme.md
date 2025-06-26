@@ -183,6 +183,3 @@ CRLDeltaPeriodUnits=0
 | Crypto Strength         | KeyLength=4096, Validity=20 years                       | Long-term security with practical lifecycle management |
 | Compatibility           | Critical=False on AnyPolicy                             | Avoids client rejection due to unrecognized policies   |
 
----
-
-Let me know if you'd like this rewritten as documentation, a training slide, or even templated for comparison against a subordinate CA.
