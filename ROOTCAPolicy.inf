@@ -1,5 +1,10 @@
 [Version]
 Signature="$Windows NT$"
+[PolicyStatementExtension]
+Policies=AllIssuancePolicy
+Critical=False
+[AllIssuancePolicy]
+OID=2.5.29.32.0
 [BasicConstraintsExtension]
 Critical=Yes
 [CRLDistributionPoint]
